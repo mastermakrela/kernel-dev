@@ -3,8 +3,9 @@
 To develop linux kernel and/or modules clone this repository, open it in VS Code
 and follow the setup steps.
 
-If you want to learn more about kernel programming in VS Code on apple silicon,
-check out my [blog post](https://mastermakrela.com/kernel).
+If you plan to work on **apple silicon mac** (like I do),
+it's worth to check out my full [setup guide](https://mastermakrela.com/kernel),
+because not everything works natively on a mac.
 
 ## Setup
 
