@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "name": "Linux Modules",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "./linux/include",
+        "./linux/arch/arm64/include",
+        "./linux/arch/arm64/include/generated",
+        "/usr/lib/gcc/aarch64-redhat-linux/13/include"
+      ],
+      "forcedInclude": [
+        "./linux/include/generated/autoconf.h"
+      ],
+      "defines": [
+        "__KERNEL__",
+        "LINUX",
+        "MODULE"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "intelliSenseMode": "linux-gcc-arm64",
+      "dotConfig": "./linux/.config",
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}
